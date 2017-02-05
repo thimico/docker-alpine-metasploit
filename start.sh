@@ -28,7 +28,7 @@ else
 	echo "	1. Setup a database:"
 	echo "	   docker run -d --name=postgres postgres"
 	echo "	2. Link containers:"
-	echo "	   docker run -it --link postgres:db fcolista/alpine-metasploit"
+	echo "	   docker run -it --link postgres:db thimico/alpine-metasploit"
 	echo ""
 	echo " I'm going to run metasploit without DB connection..."
 	/usr/share/metasploit-framework/msfconsole -n
